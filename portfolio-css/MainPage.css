@@ -19,7 +19,7 @@ body
     border-style: dotted;
     border-color: lavender;
     border-radius: 20px;
-    margin: 10% 20% 5% 20%;
+    margin: 5% 20% 5% 20%;
     background-color: #a6b1e1;
 }
 
@@ -29,19 +29,6 @@ height: 400px;
 width: 300px;
 border-radius: 50%;
 }
-
-/* .row2
-{
-    background-color: blue;
-} */
-
-/* .col2
-{
-    background-color: brown;
-} */
-
-
-
 
 .navbar
 {

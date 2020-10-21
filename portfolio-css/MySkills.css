@@ -22,24 +22,42 @@ body
     background-color: #a6b1e1;
 }
 
-.imageMe
+
+
+.row2, .row3
 {
-height: 400px;
-width: 300px;
-border-radius: 50%;
+    border-style: dotted;
+    border-color: lavender;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    text-decoration: none;
 }
 
-/* .row2
+.col1
 {
-    background-color: blue;
-} */
+    padding: 2%;
+}
 
-/* .col2
+.card
 {
-    background-color: brown;
-} */
+height:fit-content ;
+width: fit-content;
+border-radius: 20px;
+background-color: #a6b1e1;
+color:  #424874 ;
+border-style: none;
+}
 
+img
+{
+height: 200px;
+border-radius: 20px;
+}
 
+h3
+{
+    color: lavender;
+}
 .navbar
 {
     
