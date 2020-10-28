@@ -34,9 +34,9 @@ border-radius: 50%;
 
 .navbar
 {
-    
+    border-bottom-style: groove;
+    border-bottom-color:  #a6b1e1;
     background-color: #424874;
-    
 }
 
 .scrollDiv

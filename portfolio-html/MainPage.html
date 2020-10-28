@@ -20,18 +20,18 @@
 
 <body>
     
+<div id="containter">
 
-    
         <!-- Image and text navbar-->
     <nav class="navbar navbar-dark">
-    <a class="navbar-brand smiley" href="MainPage.html">
+    <a class="navbar-brand active" href="MainPage.html">
         Home <i class="fas fa-home"></i>
     </a>
-    <a class="navbar-brand smiley" href="AboutMe.html">
-        About Me <i class="far fa-grin-beam"></i>
-    </a>
-    <a class="navbar-brand laptop" href="MySkills.html">
+    <a class="navbar-brand" href="#mySkills">
         Skills <i class="fas fa-laptop-code"></i>
+    </a>
+    <a class="navbar-brand" href="AboutMe.html">
+        About Me <i class="far fa-grin-beam"></i>
     </a>
     <a class="navbar-brand" href="Contact.html">
         Contact <i class="far fa-address-card"></i>
@@ -45,14 +45,14 @@
 
   </nav>
 
-  <hr>
+  
 
     <div class="scrollDiv">
 
        <!--Jumbotron heading-->
         <div class="row row1 justify-items-center">
-            <div class="col col1">
-                <div class=" jumbotron text-center welcomeNote "  >
+            <div class="col col-md-12">
+                <div class=" jumbotron text-center" id="jumboHeading" >
                     <h1 class="display-5">Hi, my name is Elena Georgiou!</h1>
                  <br> 
                     <h2>I am learning new skills everyday to help me become a Software Developer.</h2>
@@ -66,17 +66,116 @@
 
         <!--row with image inside-->
         <div class="row row2 text-center">
-            <div class="col col2 ">
-                <img class="imageMe text-center" class="imageMe" src="images\DSC_0519.jpg" alt="Image of Elena Georgiou"  >
+            <div class="col-md-12">
+                <img class="imageMe" src="images\DSC_0519.jpg" alt="Image of Elena Georgiou"  >
             </div>
         </div>
         
-    </div>
-  
+        <!--row to start skills section-->
 
+        <div class="row row3 text-center">
+            <div class="col-md-12">
+                <div class=" jumbotron text-center jumboSubHead" >
+                    <h1 class="display-5" id="mySkills">Skills</h1>
+                </div>
+            </div>
+        </div>
+
+        <!--row for skills-->
+        <div class="row row4 text-center">
+            <div class="col">
+                <img src="images/Csharp.png" alt="">
+            </div>
+            <div class="col">
+                <img src="images/SQL.png" alt="">
+            </div>
+            <div class="col">
+                <img src="images/JS.png" alt="">
+            </div>
+            <div class="col">
+                <img src="images/HTML.png" alt="">
+            </div>
+            <div class="col">
+                <img src="images/CSS.png" alt="">
+            </div>
+            <div class="col">
+                <img src="images/Git.png" alt="">
+            </div>
+        </div>
+
+        
+        <!--row to start work experience section-->
+
+        <div class="row row5 justify-items-center">
+            <div class="col-md-12">
+                <div class=" jumbotron text-center jumboSubHead">
+                    <h1 class="display-5" id="workExperience">Work Experience</h1>
+                </div>
+            </div>
+        </div>
+
+        <!--row for work experience-->
+         
+        <div class="row row6 justify-items-center">
+            <div class="col">
+                <div>
+                    <h3>Technical Instructor</h3>
+                    <h4>Job title <span class="dates"> Dates to and From</span></h4>
+                    <p>This is the summary of what my job was</p>
+                    <ul>
+                        <li>
+                            Delivering course...
+                        </li>
+                        <li>
+                            Speaking with customers 
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <h3>Technical Instructor</h3>
+                    <h4>Job title <span class="dates"> Dates to and From</span></h4>
+                    <p>This is the summary of what my job was</p>
+                    <ul>
+                        <li>
+                            Delivering course...
+                        </li>
+                        <li>
+                            Speaking with customers 
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <h3>Technical Instructor</h3>
+                    <h4>Job title <span class="dates"> Dates to and From</span></h4>
+                    <p>This is the summary of what my job was</p>
+                    <ul>
+                        <li>
+                            Delivering course...
+                        </li>
+                        <li>
+                            Speaking with customers 
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+</div>
+    
+
+
+    
  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+ 
 
 </body>
 

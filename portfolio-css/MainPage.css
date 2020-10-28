@@ -14,12 +14,12 @@ body
     font-family: 'Dosis', sans-serif;
 }
 
-.jumbotron
+#jumboHeading
 {
     border-style: dotted;
     border-color: lavender;
     border-radius: 20px;
-    margin: 5% 20% 5% 20%;
+    margin: 4% 20% 4% 20%;
     background-color: #a6b1e1;
 }
 
@@ -30,9 +30,23 @@ width: 300px;
 border-radius: 50%;
 }
 
+.row2, .row4, .row6
+{
+    color: lavender;
+    border-bottom-style: dotted;
+    border-bottom-color:  #a6b1e1;
+    margin: 0% 10% 0% 10%;
+    padding-bottom: 4%;
+    list-style-position: inside;
+    
+}
+
+
 .navbar
 {
-    
+
+    border-bottom-style: groove;
+    border-bottom-color:  #a6b1e1;
     background-color: #424874;
     
 }
@@ -45,4 +59,15 @@ border-radius: 50%;
     right: 0;
     bottom: 0;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
+
+.jumboSubHead
+{
+    border-style: dotted;
+    border-color: lavender;
+    border-radius: 20px;
+    margin: 4% 30% 4% 30%;
+    background-color: #a6b1e1;
+}
+
