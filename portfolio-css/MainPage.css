@@ -111,7 +111,7 @@ padding: 3%;
 .scrollDiv
 {
     position: fixed;
-    top: 60px; /* top of the scroll is below navbar */
+    top: 70px; /* top of the scroll is below navbar */
     left: 0;
     right: 0;
     bottom: 0;
