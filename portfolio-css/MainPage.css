@@ -110,13 +110,14 @@ padding: 1%;
 
 .scrollDiv
 {
-    position: fixed;
-    top: 70px; /* top of the scroll is below navbar */
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
+  position: fixed;
+            margin-top: 50px;
+            top: 1vw; /* top of the scroll is below navbar */
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow-y: scroll;
+            overflow-x:hidden;
 }
 
 .jumboSubHead
